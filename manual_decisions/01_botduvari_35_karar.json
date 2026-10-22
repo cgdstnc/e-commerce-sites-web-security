@@ -1,0 +1,177 @@
+{
+ "C00535": [
+  "supheli",
+  "",
+  "Cloudflare tarayiciyi da engelledi; icerik gorulemedi"
+ ],
+ "C02173": [
+  "hayir",
+  "",
+  "Villa kiralama hizmeti, Ingilizce; urun satisi degil"
+ ],
+ "C02683": [
+  "hayir",
+  "",
+  "<self>ify'in global <self> uygulamasi, Ingilizce"
+ ],
+ "C03153": [
+  "hayir",
+  "",
+  "Ilan sitesi - satis site uzerinden tamamlanmiyor (sector_labels.md 1). Tarayicida da engelli."
+ ],
+ "C03648": [
+  "hayir",
+  "",
+  "Yabanci TCG pazaryeri, Ingilizce"
+ ],
+ "C04079": [
+  "hayir",
+  "",
+  "Otel yonetim yazilimi (PMS), e-ticaret degil"
+ ],
+ "C08174": [
+  "hayir",
+  "",
+  "<self> s.r.o. (Cek), Ingilizce vitrin"
+ ],
+ "C08307": [
+  "hayir",
+  "",
+  "APK indirme sitesi, Ingilizce"
+ ],
+ "C08827": [
+  "supheli",
+  "",
+  "Hasarli arac ihale platformu; uyelik+ihale akisi, dogrudan satis mi ilan mi belirsiz"
+ ],
+ "C12459": [
+  "hayir",
+  "",
+  "Japon araci alisveris servisi; Turkce arayuz var ama Turkiye merkezli site degil"
+ ],
+ "C14581": [
+  "hayir",
+  "",
+  "Kok sayfa Ingilizce global vitrin; Turkce icerik kok duzeyinde yok"
+ ],
+ "C14690": [
+  "supheli",
+  "mobilya",
+  "Luks mobilya; 18 urun baglantisi ama sepet ve fiyat yok - katalog/showroom olabilir"
+ ],
+ "S001": [
+  "evet",
+  "market",
+  "<self> online market; sepet+fiyat, 166 urun baglantisi"
+ ],
+ "S039": [
+  "evet",
+  "diger",
+  "<self> TR spor magazasi; sepet+fiyat, 36 urun baglantisi"
+ ],
+ "S070": [
+  "evet",
+  "moda",
+  "Communite magazasi; lang=tr, sepet baglantisi, Kadin/Erkek/Kozmetik menusu"
+ ],
+ "S074": [
+  "evet",
+  "diger",
+  "<self> pazaryeri; sepet+fiyat, 110 urun baglantisi"
+ ],
+ "S083": [
+  "evet",
+  "diger",
+  "<self>; sepet baglantisi, fiyat, lang=tr-TR"
+ ],
+ "S109": [
+  "evet",
+  "diger",
+  "<self> parca; sepet baglantisi, fiyat, 3248 urun baglantisi"
+ ],
+ "S143": [
+  "evet",
+  "diger",
+  "<self> cicek/hediye; sepet baglantisi, fiyat"
+ ],
+ "S145": [
+  "evet",
+  "diger",
+  "<self> online cicek siparisi; sepet baglantisi, fiyat"
+ ],
+ "S157": [
+  "evet",
+  "kozmetik",
+  "<self>; sepet+fiyat, 30 urun baglantisi"
+ ],
+ "S189": [
+  "evet",
+  "moda",
+  "<self>; lang=tr-tr, /kadin vitrinine yonlendiriyor, JS agirlikli"
+ ],
+ "S214": [
+  "evet",
+  "moda",
+  "<self> ikinci el moda pazaryeri; sepet baglantisi, 36 urun baglantisi"
+ ],
+ "S228": [
+  "evet",
+  "elektronik",
+  "<self>; lang=tr, sepet baglantisi, fiyat, urun baglantilari"
+ ],
+ "S258": [
+  "evet",
+  "diger",
+  "C01513 urun satisi (oyun ici para); fiyat, 55 urun baglantisi"
+ ],
+ "S267": [
+  "evet",
+  "diger",
+  "<self>; lang=tr, sepet baglantisi, fiyat"
+ ],
+ "S270": [
+  "evet",
+  "moda",
+  "<self> abiye/elbise; 'sepete ekle' metni, fiyat"
+ ],
+ "S277": [
+  "evet",
+  "elektronik",
+  "<self>; sepet+fiyat, 29 urun baglantisi"
+ ],
+ "S278": [
+  "evet",
+  "diger",
+  "n11 pazaryeri; sepet baglantisi, 74 urun baglantisi, fiyat"
+ ],
+ "S355": [
+  "evet",
+  "diger",
+  "<self> pazaryeri; sepet+fiyat, 94 urun baglantisi"
+ ],
+ "S373": [
+  "evet",
+  "moda",
+  "<self> Turkiye; shop.<self>/tr/tr vitrinine yonlendiriyor, lang=tr"
+ ],
+ "S398": [
+  "evet",
+  "moda",
+  "<self> Turkiye resmi; lang=tr, sepet baglantisi, fiyat"
+ ],
+ "S403": [
+  "evet",
+  "diger",
+  "<self> pazaryeri; sepet baglantisi, 47 urun baglantisi, fiyat"
+ ],
+ "S407": [
+  "evet",
+  "market",
+  "<self> online market; tr, fiyat var, JS agirlikli ana sayfa"
+ ],
+ "S410": [
+  "evet",
+  "diger",
+  "<self>; 'sepete ekle' metni, fiyat, lang=tr-TR"
+ ]
+}

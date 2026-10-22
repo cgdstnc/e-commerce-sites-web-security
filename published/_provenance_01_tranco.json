@@ -1,0 +1,53 @@
+{
+  "step": "1 - Tranco .tr slice",
+  "generated_on": "2026-10-20",
+  "source": {
+    "list_id": "Y8YJG",
+    "list_date": "2026-09-26",
+    "permalink": "https://tranco-list.eu/list/Y8YJG/1000000",
+    "download": "curl -L https://tranco-list.eu/download/Y8YJG/1000000",
+    "configuration": {
+      "providers": [
+        "crux",
+        "farsight",
+        "majestic",
+        "radar",
+        "umbrella"
+      ],
+      "combinationMethod": "dowdall",
+      "filterPLD": "on",
+      "startDate": "2026-08-28",
+      "endDate": "2026-09-26"
+    },
+    "format": "rank,domain - no header row, CRLF line endings",
+    "file": "raw_data/tranco_Y8YJG_2026-09-26.csv",
+    "sha256": "071ac7c36da7a7c10f8b415b1ab946d5d07088c55a789fc5ab38c76ad41da5fe",
+    "rows": 1000000
+  },
+  "output": {
+    "file": "out/tranco_tr_slice.csv",
+    "rows": 2898,
+    "suffix_distribution": {
+      "com.tr": 1952,
+      "edu.tr": 226,
+      "gov.tr": 226,
+      "org.tr": 169,
+      "tr": 94,
+      "bel.tr": 88,
+      "net.tr": 76,
+      "gen.tr": 27,
+      "web.tr": 18,
+      "av.tr": 6,
+      "k12.tr": 3,
+      "biz.tr": 2,
+      "info.tr": 2,
+      "kep.tr": 2,
+      "name.tr": 2,
+      "pol.tr": 2,
+      "bbs.tr": 1,
+      "dr.tr": 1,
+      "tsk.tr": 1
+    }
+  },
+  "known_limitation": "Filtering on .tr alone does not capture Turkish e-commerce. Of 36 known Turkish e-commerce domains, 35 are on this list but only 12 end in .tr; 23 sit on .com, and so do the four largest (S403 #942, C03153 #1192, S074 #3671, S278 #5679). That is why step 2 adds a second source, ranked by real traffic from Turkey."
+}

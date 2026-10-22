@@ -1,0 +1,50 @@
+{
+  "step": "05 - maturity score",
+  "generated_on": "2026-10-22",
+  "input": {
+    "file": "raw_data/measurements_20261010.jsonl",
+    "rows": 426
+  },
+  "output": {
+    "file": "out/scores.csv",
+    "rows": 426
+  },
+  "summary": {
+    "header_score": {
+      "n": 426,
+      "mean": 62.36,
+      "median": 69.9,
+      "sd": 25.21,
+      "min": 0,
+      "max": 97.9,
+      "q1": 40.38,
+      "q3": 84.8
+    },
+    "tls_score": {
+      "n": 426,
+      "mean": 89.08,
+      "median": 100,
+      "sd": 17.69,
+      "min": 33.3,
+      "max": 100,
+      "q1": 77.8,
+      "q3": 100
+    },
+    "overall_score": {
+      "n": 426,
+      "mean": 75.72,
+      "median": 79.7,
+      "sd": 17.87,
+      "min": 30,
+      "max": 99,
+      "q1": 60.8,
+      "q3": 92.4
+    }
+  },
+  "weights_source": {
+    "header": "derived in proportion to the penalties published by Mozilla HTTP Observatory",
+    "tls": "derived from the level definitions in Mozilla Server Side TLS",
+    "overall": "50/50 - a CHOSEN weight, not a derived one"
+  },
+  "null_policy": "an item we could not measure does not score zero; its weight leaves the denominator, and covered_weight reports the coverage."
+}

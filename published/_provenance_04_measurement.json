@@ -1,0 +1,31 @@
+{
+  "step": "04 - security measurement",
+  "generated_on": "2026-10-11",
+  "limits": {
+    "concurrency": 5,
+    "perSiteGapMs": 1000,
+    "maxAttempts": 2,
+    "retryGapMs": 5000,
+    "requestDeadlineMs": 30000,
+    "maxRedirects": 10,
+    "domainDeadlineMs": 180000,
+    "maxBodyBytes": 600000,
+    "allowedPaths": [
+      "/robots.txt",
+      "/",
+      "/.well-known/security.txt"
+    ]
+  },
+  "input": {
+    "file": "out/sample_frame.csv"
+  },
+  "output": {
+    "file": "out/measurements.jsonl",
+    "rows": 426,
+    "by_status": {
+      "ok": 425,
+      "unreachable_https": 1
+    }
+  },
+  "client": "plain HTTP; no browser was used, so cookies set by JavaScript were not measured"
+}

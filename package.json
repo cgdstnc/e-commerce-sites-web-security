@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce-security-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Web security measurement of Turkish e-commerce sites: the full pipeline (TypeScript)",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "verify": "node src/main.ts --verify",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "pretest": "node check-node.js",
+    "prestart": "node check-node.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  }
+}

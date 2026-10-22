@@ -1,0 +1,44 @@
+{
+  "_readme": [
+    "sha256 of the output this package must produce. Verified by:",
+    "",
+    "    node src/main.ts --skip-frame --verify",
+    "",
+    "These hashes were recorded from a run inside this anonymised package, so",
+    "they reflect the pseudonymous identifiers it ships. They therefore differ",
+    "from the hashes of the authors' working tree, where the same code runs on",
+    "the real domain names.",
+    "",
+    "All six outputs are listed, including the frame steps, because the Tranco",
+    "and Chrome UX Report lists are included here. Those two outputs carry real",
+    "domain names; they are derived from public lists and reveal nothing about",
+    "which sites were selected, since selection runs through the pseudonymous",
+    "classification output."
+  ],
+  "outputs": {
+    "tranco_tr_slice.csv": {
+      "rows": 2898,
+      "sha256": "5f139d840ae5c654692174c736915fe847f4cbb35d4cb9927f7aec71b8439fb5"
+    },
+    "candidate_frame.csv": {
+      "rows": 350329,
+      "sha256": "abe5d434770930cbd2fad14d754c5f73a1fe31df062f3061bb7d63813fd62f78"
+    },
+    "crawl_list.csv": {
+      "rows": 15618,
+      "sha256": "ab074a16f57a3096b0f7e67647633580f8f2d405b7c3b304b8a5e383fc096493"
+    },
+    "validated_pool.csv": {
+      "rows": 1886,
+      "sha256": "d2cf6ae311ecf001cd97e42243193f0c00818ede9909bee07efcc4c3ad368d6b"
+    },
+    "sample_frame.csv": {
+      "rows": 426,
+      "sha256": "61116bab04fa9726b6c843466a5dd1f0f58395d1ce861fce6215841f45ba8110"
+    },
+    "scores.csv": {
+      "rows": 426,
+      "sha256": "68b114afcfa99747228b341d9136d4643b6954836e212c6b4b96278cc52f00a4"
+    }
+  }
+}

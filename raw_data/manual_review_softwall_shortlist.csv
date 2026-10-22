@@ -1,0 +1,23 @@
+domain,stratum,crux_best_bucket,http_status,detection_rule,is_ecommerce,sector_final,verified_on,evidence
+C14059,D_botduvari,1000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+S380,D_botduvari,1000,202,http=202,evet,diger,2026-10-11,"Tarayici: lang=tr-tr, 13.687 karakter, 36 urun baglantisi, 140 TL fiyat, sepet baglantisi var"
+C10570,D_botduvari,1000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C03454,D_botduvari,1000,200,baslikta engelleme imzasi,hayir,,2026-10-11,"Tarayici: TOD ile ayni platform, /mac-basliyor/'a yonleniyor; sepet ve fiyat yok"
+C03719,D_botduvari,1000,202,http=202,hayir,,2026-10-11,"Kripto borsasi, perakende urun satisi degil"
+C06455,D_botduvari,1000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (konaklama rezervasyonu)
+C10336,D_botduvari,1000,200,baslikta engelleme imzasi,hayir,,2026-10-11,"Tarayici: spor yayin aboneligi; sepet yok, TL fiyat yok, urun satisi degil"
+C07295,D_botduvari,5000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C13702,D_botduvari,5000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C10174,D_botduvari,5000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C12869,D_botduvari,5000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C10159,D_botduvari,10000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C07109,D_botduvari,10000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C09603,D_botduvari,10000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C08897,D_botduvari,10000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C03615,D_botduvari,10000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C13511,D_botduvari,10000,202,http=202,hayir,,2026-10-11,Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (<self>'un baska ulke sitesi)
+C12565,D_botduvari,10000,202,http=202,hayir,,2026-10-11,"Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (kurs platformu, Ingilizce)"
+C13877,D_botduvari,10000,202,http=202,hayir,,2026-10-11,"Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (CAD parca katalogu, Ingilizce)"
+C13366,D_botduvari,50000,202,http=202,hayir,,2026-10-11,"Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (tasarim portfolyosu, Ingilizce)"
+C05152,D_botduvari,100000,200,baslikta engelleme imzasi,hayir,,2026-10-11,"Tarayici: lang=en, '<self> Abroad' - yurt disi aboneleri icin"
+C08839,D_botduvari,100000,202,http=202,hayir,,2026-10-11,"Turkiye e-ticareti degil: yabanci alan adi / Turkiye pazarina satis yapmiyor (forum, Ingilizce)"

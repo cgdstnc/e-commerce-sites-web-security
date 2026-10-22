@@ -1,0 +1,122 @@
+{
+ "C00893": [
+  "hayir",
+  "",
+  "Matematik egitim platformu; urun, fiyat veya sepet akisi yok"
+ ],
+ "C01513": [
+  "hayir",
+  "",
+  "Restoranlar icin <self> platformu, Ingilizce; kendi urun satisi yok"
+ ],
+ "C03835": [
+  "hayir",
+  "",
+  "Yapilandirilmamis WordPress kurulumu: 'Hello world!' varsayilan yazisi, 'ADD ANYTHING HERE OR JUST REMOVE IT'"
+ ],
+ "S032": [
+  "evet",
+  "moda",
+  "Basligi 'Online Satis'; Kadin/Erkek giyim kategorileri, favoriler, sepet ikonu"
+ ],
+ "S067": [
+  "evet",
+  "moda",
+  "Kadin giyim kategorileri, 'Mesafeli Satis Sozlesmesi', 'Siparis Takibi'"
+ ],
+ "S092": [
+  "evet",
+  "diger",
+  "'SEPET 0,00 TL', 'SATIN AL', 'HEMEN AL'; egitim/kirtasiye. NOT: https sertifikasi gecersiz, http ile acildi"
+ ],
+ "S099": [
+  "evet",
+  "moda",
+  "'Sepetim' menude; buyuk beden giyim kategorileri, indirim/kampanya"
+ ],
+ "S116": [
+  "evet",
+  "diger",
+  "'Urun Sepetinize Eklendi', 'Siparis Takibi'; motosiklet. Ana sayfa giris sayfasina yonlendi"
+ ],
+ "S117": [
+  "evet",
+  "kozmetik",
+  "'Sepetim 0'; parfum/make-up/cilt bakim kategorileri, 'Kargo & Teslimat'"
+ ],
+ "S141": [
+  "evet",
+  "diger",
+  "Sepet ikonu, coklu para birimi, 'Siparis Takip'; B2B tedarik/dropshipping"
+ ],
+ "S142": [
+  "evet",
+  "diger",
+  "'0 Sepetim', 'Siparis Takip'; oto yedek parca katalogu (otomotiv)"
+ ],
+ "S148": [
+  "evet",
+  "diger",
+  "'Urunler', 'Guvenli Odeme', sepet ikonu; hasta yatagi satis+kiralama"
+ ],
+ "S150": [
+  "evet",
+  "moda",
+  "Ayakkabi/canta kategorileri, 'Siparislerim', sepet ikonu"
+ ],
+ "S225": [
+  "evet",
+  "diger",
+  "18 TL fiyat, '1500 TL uzeri ucretsiz kargo', 'Siparis Takibi'; olta/kamp/pet"
+ ],
+ "S227": [
+  "evet",
+  "diger",
+  "'Sepetim (0)', 'Telefonla Siparis'; oto anahtar/kumanda katalogu"
+ ],
+ "S236": [
+  "evet",
+  "moda",
+  "Urun kategorileri (Erkek Boxer/Slip/Pijama...), sepet ikonu; ic giyim magazasi"
+ ],
+ "S269": [
+  "evet",
+  "mobilya",
+  "'Sepet 0', porselen/sofra urun kategorileri, uyelik indirimi"
+ ],
+ "S276": [
+  "evet",
+  "moda",
+  "Ceket/Gomlek/Takim Elbise kategorileri, 'Ilk Alisverisinize Ozel %10 Indirim'"
+ ],
+ "S280": [
+  "evet",
+  "moda",
+  "'ALISVERIS SEPETI Sepetiniz bos', 'Mesafeli Satis Sozlesmesi'; toptan giyim"
+ ],
+ "S295": [
+  "evet",
+  "moda",
+  "'Sepetim (0 Urun)' ve 'Toplam'; spor giyim"
+ ],
+ "S339": [
+  "evet",
+  "moda",
+  "'SEPETIM 0 Urun'; toptan giyim. NOT: fiyatlar uyelik gerektiriyor"
+ ],
+ "S385": [
+  "evet",
+  "moda",
+  "'Sepetinde urunler var', 'Bu urunu nasil satin almak istersiniz'; ic giyim"
+ ],
+ "S397": [
+  "evet",
+  "moda",
+  "Erkek/Kadin giyim kategorileri, sepet ikonu, 'Kargo & Teslimat'"
+ ],
+ "S409": [
+  "evet",
+  "diger",
+  "'Sepetim Urun Yok' ve 'Magaza'; finansal analiz yazilimi cevrimici satiliyor"
+ ]
+}

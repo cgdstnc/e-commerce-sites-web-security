@@ -1,0 +1,40 @@
+{
+  "step": "2 - merge Tranco .tr with CrUX Turkey",
+  "generated_on": "2026-10-20",
+  "sources": {
+    "tranco_tr_slice": {
+      "list_id": "Y8YJG",
+      "rows": 2898
+    },
+    "crux_tr": {
+      "month": "2026-08",
+      "country": "tr",
+      "origin": "https://github.com/zakird/crux-top-lists (data/country/tr/202608.csv.gz)",
+      "format": "origin,rank - has a header row, origin is a full URL",
+      "note": "CrUX gives buckets (1000, 5000, 10000, 50000, 100000, 500000), not exact ranks.",
+      "file": "raw_data/crux_tr_202608.csv.gz",
+      "sha256": "a5a154881172f12fc6f5420c260adf67117ee6b23e5f97bf52163662c80aba61",
+      "origins_used": 473198
+    }
+  },
+  "output": {
+    "file": "out/candidate_frame.csv",
+    "rows": 350329,
+    "by_source": {
+      "both": 2360,
+      "crux_tr": 347431,
+      "tranco_tr": 538
+    },
+    "tr_tld": 55673,
+    "by_crux_bucket": {
+      "1000": 829,
+      "5000": 3179,
+      "10000": 3978,
+      "50000": 31458,
+      "100000": 37357,
+      "500000": 272990,
+      "": 538
+    }
+  },
+  "next_step": "3a - offline pre-filter plus stratified sampling"
+}

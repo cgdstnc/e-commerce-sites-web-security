@@ -1,0 +1,31 @@
+{
+  "step": "3h - final sampling frame",
+  "generated_on": "2026-10-22",
+  "rows": 426,
+  "by_stratum": {
+    "A_buyuk": 134,
+    "B_orta": 134,
+    "C_kucuk": 134,
+    "D_botduvari": 24
+  },
+  "by_sector": {
+    "diger": 237,
+    "kozmetik": 12,
+    "moda": 93,
+    "mobilya": 25,
+    "elektronik": 22,
+    "market": 37
+  },
+  "verified": {
+    "evidence_based": 326,
+    "manual": 100
+  },
+  "bot_blocked": 24,
+  "selection_probabilities": {
+    "A_buyuk": 0.1822,
+    "B_orta": 0.2464,
+    "C_kucuk": 0.2261,
+    "D_botduvari": "1.0 (all 35 pre-screened records were reviewed)"
+  },
+  "note": "D_botduvari is a stratum of its own. These sites could not be classified from their content, so they never entered the pool and were added after checking by hand. Their selection probability differs from the rest, so estimating a population share from this frame needs weighting."
+}

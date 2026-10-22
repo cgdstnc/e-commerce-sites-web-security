@@ -1,0 +1,600 @@
+{
+  "source": "raw_data/measurements_20261010.jsonl",
+  "generated_on": "2026-10-21",
+  "n_total": 426,
+  "n_size_strata": 402,
+  "n_bot_blocked_observed": 13,
+  "binary_metrics": {
+    "hsts_present": {
+      "pct": 63.5,
+      "n": 425,
+      "hits": 270,
+      "label": "Sends HSTS",
+      "denominator": "all measured sites"
+    },
+    "hsts_include_subdomains": {
+      "pct": 30.7,
+      "n": 270,
+      "hits": 83,
+      "label": "HSTS includeSubDomains",
+      "denominator": "sites sending HSTS"
+    },
+    "hsts_in_preload_list": {
+      "pct": 0.9,
+      "n": 425,
+      "hits": 4,
+      "label": "In the HSTS preload list",
+      "denominator": "all sites"
+    },
+    "csp_present": {
+      "pct": 48.9,
+      "n": 425,
+      "hits": 208,
+      "label": "Sends CSP",
+      "denominator": "all sites"
+    },
+    "csp_has_frame_ancestors": {
+      "pct": 74.5,
+      "n": 208,
+      "hits": 155,
+      "label": "CSP frame-ancestors",
+      "denominator": "sites sending CSP"
+    },
+    "csp_has_unsafe_inline": {
+      "pct": 82.9,
+      "n": 35,
+      "hits": 29,
+      "label": "CSP unsafe-inline",
+      "denominator": "sites defining a script source"
+    },
+    "x_content_type_options": {
+      "pct": 61.4,
+      "n": 425,
+      "hits": 261,
+      "label": "X-Content-Type-Options nosniff",
+      "denominator": "all sites"
+    },
+    "referrer_policy_strict": {
+      "pct": 93.4,
+      "n": 106,
+      "hits": 99,
+      "label": "Strict Referrer-Policy",
+      "denominator": "sites sending a policy"
+    },
+    "framing_protected": {
+      "pct": 60.9,
+      "n": 425,
+      "hits": 259,
+      "label": "Framing protected",
+      "denominator": "all sites"
+    },
+    "http_to_https_redirect": {
+      "pct": 96.5,
+      "n": 424,
+      "hits": 409,
+      "label": "HTTP to HTTPS redirect",
+      "denominator": "sites reachable over HTTP"
+    },
+    "tls_cert_valid_now": {
+      "pct": 100,
+      "n": 426,
+      "hits": 426,
+      "label": "Certificate valid",
+      "denominator": "sites with a TLS handshake"
+    },
+    "tls_cert_hostname_match": {
+      "pct": 99.8,
+      "n": 426,
+      "hits": 425,
+      "label": "Certificate matches hostname",
+      "denominator": "sites with a TLS handshake"
+    },
+    "tls_weak_cipher_present": {
+      "pct": 0,
+      "n": 407,
+      "hits": 0,
+      "label": "Accepts a weak cipher",
+      "denominator": "sites that could be tested"
+    },
+    "security_txt_present": {
+      "pct": 1,
+      "n": 402,
+      "hits": 4,
+      "label": "Has security.txt",
+      "denominator": "sites where robots allowed it"
+    },
+    "server_header_discloses_version": {
+      "pct": 4.2,
+      "n": 425,
+      "hits": 18,
+      "label": "Server header leaks a version",
+      "denominator": "all sites"
+    },
+    "legacy_tls_offered": {
+      "pct": 24.2,
+      "n": 426,
+      "hits": 103,
+      "label": "Offers TLS 1.0/1.1",
+      "denominator": "sites with a TLS handshake"
+    }
+  },
+  "secondary_metrics": {
+    "permissions_policy_present": {
+      "pct": 24,
+      "n": 425,
+      "hits": 102,
+      "label": "Sends Permissions-Policy",
+      "denominator": "all sites"
+    },
+    "feature_policy_legacy_present": {
+      "pct": 0.9,
+      "n": 425,
+      "hits": 4,
+      "label": "Sends the legacy Feature-Policy",
+      "denominator": "all sites"
+    },
+    "coop_present": {
+      "pct": 4.2,
+      "n": 425,
+      "hits": 18,
+      "label": "Sends Cross-Origin-Opener-Policy",
+      "denominator": "all sites"
+    },
+    "corp_present": {
+      "pct": 2.6,
+      "n": 425,
+      "hits": 11,
+      "label": "Sends Cross-Origin-Resource-Policy",
+      "denominator": "all sites"
+    },
+    "x_powered_by_present": {
+      "pct": 29.9,
+      "n": 425,
+      "hits": 127,
+      "label": "Sends X-Powered-By",
+      "denominator": "all sites"
+    },
+    "csp_has_unsafe_eval": {
+      "pct": 91.4,
+      "n": 35,
+      "hits": 32,
+      "label": "CSP unsafe-eval",
+      "denominator": "sites defining a script source"
+    },
+    "csp_has_nonce": {
+      "pct": 20,
+      "n": 35,
+      "hits": 7,
+      "label": "CSP nonce",
+      "denominator": "sites defining a script source"
+    },
+    "csp_has_strict_dynamic": {
+      "pct": 0,
+      "n": 35,
+      "hits": 0,
+      "label": "CSP strict-dynamic",
+      "denominator": "sites defining a script source"
+    },
+    "permissions_policy_single_directive": {
+      "pct": 46.1,
+      "n": 102,
+      "hits": 47,
+      "label": "Permissions-Policy naming one directive",
+      "denominator": "sites sending Permissions-Policy"
+    },
+    "mixed_content": {
+      "pct": 2.6,
+      "n": 424,
+      "hits": 11,
+      "label": "Loads at least one resource over plain HTTP",
+      "denominator": "sites with an HTML body"
+    }
+  },
+  "cookies": {
+    "sites_setting": 357,
+    "cookies_observed": 967,
+    "per_cookie": {
+      "secure": {
+        "pct": 85.4,
+        "n": 967,
+        "hits": 826
+      },
+      "httponly": {
+        "pct": 67,
+        "n": 967,
+        "hits": 648
+      },
+      "samesite": {
+        "strict": {
+          "pct": 7,
+          "n": 967,
+          "hits": 68
+        },
+        "lax": {
+          "pct": 27.4,
+          "n": 967,
+          "hits": 265
+        },
+        "none": {
+          "pct": 46.6,
+          "n": 967,
+          "hits": 451
+        },
+        "absent": {
+          "pct": 18.9,
+          "n": 967,
+          "hits": 183
+        }
+      }
+    },
+    "per_site_mean": {
+      "secure": 84.6,
+      "httponly": 70.1
+    }
+  },
+  "csp_directive_count": {
+    "n": 208,
+    "mean": 2.81,
+    "median": 2,
+    "sd": 2.72,
+    "min": 1,
+    "max": 13,
+    "q1": 1,
+    "q3": 3
+  },
+  "mixed_content_references": 49,
+  "scores": {
+    "header_score": {
+      "n": 426,
+      "mean": 62.36,
+      "median": 69.9,
+      "sd": 25.21,
+      "min": 0,
+      "max": 97.9,
+      "q1": 40.38,
+      "q3": 84.8
+    },
+    "tls_score": {
+      "n": 426,
+      "mean": 89.08,
+      "median": 100,
+      "sd": 17.69,
+      "min": 33.3,
+      "max": 100,
+      "q1": 77.8,
+      "q3": 100
+    },
+    "overall_score": {
+      "n": 426,
+      "mean": 75.72,
+      "median": 79.7,
+      "sd": 17.87,
+      "min": 30,
+      "max": 99,
+      "q1": 60.8,
+      "q3": 92.4
+    }
+  },
+  "scores_by_stratum": {
+    "header_score": {
+      "A_buyuk": {
+        "n": 134,
+        "mean": 64.71,
+        "median": 69.4,
+        "sd": 23.08,
+        "min": 0,
+        "max": 94.1,
+        "q1": 51.8,
+        "q3": 84.8
+      },
+      "B_orta": {
+        "n": 134,
+        "mean": 62.64,
+        "median": 74.8,
+        "sd": 24.22,
+        "min": 0,
+        "max": 94.1,
+        "q1": 41.65,
+        "q3": 84.8
+      },
+      "C_kucuk": {
+        "n": 134,
+        "mean": 59.76,
+        "median": 61.5,
+        "sd": 28.6,
+        "min": 0,
+        "max": 95.8,
+        "q1": 32.15,
+        "q3": 85.1
+      },
+      "D_botduvari": {
+        "n": 24,
+        "mean": 62.19,
+        "median": 67.55,
+        "sd": 21.75,
+        "min": 21.1,
+        "max": 97.9,
+        "q1": 45.55,
+        "q3": 76.4
+      }
+    },
+    "tls_score": {
+      "A_buyuk": {
+        "n": 134,
+        "mean": 87.99,
+        "median": 100,
+        "sd": 17.86,
+        "min": 33.3,
+        "max": 100,
+        "q1": 64.45,
+        "q3": 100
+      },
+      "B_orta": {
+        "n": 134,
+        "mean": 89.93,
+        "median": 100,
+        "sd": 17.97,
+        "min": 33.3,
+        "max": 100,
+        "q1": 100,
+        "q3": 100
+      },
+      "C_kucuk": {
+        "n": 134,
+        "mean": 90.2,
+        "median": 100,
+        "sd": 16.7,
+        "min": 55.6,
+        "max": 100,
+        "q1": 77.8,
+        "q3": 100
+      },
+      "D_botduvari": {
+        "n": 24,
+        "mean": 84.17,
+        "median": 100,
+        "sd": 20.41,
+        "min": 40,
+        "max": 100,
+        "q1": 60,
+        "q3": 100
+      }
+    },
+    "overall_score": {
+      "A_buyuk": {
+        "n": 134,
+        "mean": 76.36,
+        "median": 79.85,
+        "sd": 16.94,
+        "min": 30,
+        "max": 97,
+        "q1": 65.18,
+        "q3": 91.78
+      },
+      "B_orta": {
+        "n": 134,
+        "mean": 76.29,
+        "median": 86.3,
+        "sd": 18.15,
+        "min": 37.4,
+        "max": 97,
+        "q1": 60.8,
+        "q3": 92.4
+      },
+      "C_kucuk": {
+        "n": 134,
+        "mean": 74.98,
+        "median": 76.65,
+        "sd": 18.46,
+        "min": 30,
+        "max": 97,
+        "q1": 60.5,
+        "q3": 92.4
+      },
+      "D_botduvari": {
+        "n": 24,
+        "mean": 73.18,
+        "median": 74.45,
+        "sd": 18.87,
+        "min": 30.6,
+        "max": 99,
+        "q1": 59.75,
+        "q3": 88.2
+      }
+    }
+  },
+  "scores_by_sector": {
+    "header_score": {
+      "diger": {
+        "n": 237,
+        "mean": 60.07,
+        "median": 61.5,
+        "sd": 26.36,
+        "min": 0,
+        "max": 95.8,
+        "q1": 39.3,
+        "q3": 84.8
+      },
+      "elektronik": {
+        "n": 22,
+        "mean": 72.89,
+        "median": 79.95,
+        "sd": 21.27,
+        "min": 21.1,
+        "max": 95.1,
+        "q1": 56.15,
+        "q3": 90.4
+      },
+      "kozmetik": {
+        "n": 12,
+        "mean": 74.58,
+        "median": 82.4,
+        "sd": 21.17,
+        "min": 23.7,
+        "max": 94.1,
+        "q1": 70.92,
+        "q3": 90.4
+      },
+      "market": {
+        "n": 37,
+        "mean": 55.46,
+        "median": 52.6,
+        "sd": 26.43,
+        "min": 0,
+        "max": 94.1,
+        "q1": 34.1,
+        "q3": 82.6
+      },
+      "mobilya": {
+        "n": 25,
+        "mean": 65.33,
+        "median": 78.7,
+        "sd": 24.21,
+        "min": 14.8,
+        "max": 90.4,
+        "q1": 37.8,
+        "q3": 84.8
+      },
+      "moda": {
+        "n": 93,
+        "mean": 66.08,
+        "median": 74.8,
+        "sd": 21.81,
+        "min": 14.8,
+        "max": 97.9,
+        "q1": 57.8,
+        "q3": 84.4
+      }
+    },
+    "tls_score": {
+      "diger": {
+        "n": 237,
+        "mean": 89.08,
+        "median": 100,
+        "sd": 17.65,
+        "min": 33.3,
+        "max": 100,
+        "q1": 77.8,
+        "q3": 100
+      },
+      "elektronik": {
+        "n": 22,
+        "mean": 91.82,
+        "median": 100,
+        "sd": 15.93,
+        "min": 60,
+        "max": 100,
+        "q1": 100,
+        "q3": 100
+      },
+      "kozmetik": {
+        "n": 12,
+        "mean": 100,
+        "median": 100,
+        "sd": 0,
+        "min": 100,
+        "max": 100,
+        "q1": 100,
+        "q3": 100
+      },
+      "market": {
+        "n": 37,
+        "mean": 88.59,
+        "median": 100,
+        "sd": 18.01,
+        "min": 60,
+        "max": 100,
+        "q1": 60,
+        "q3": 100
+      },
+      "mobilya": {
+        "n": 25,
+        "mean": 88.8,
+        "median": 100,
+        "sd": 19.22,
+        "min": 40,
+        "max": 100,
+        "q1": 80,
+        "q3": 100
+      },
+      "moda": {
+        "n": 93,
+        "mean": 87.31,
+        "median": 100,
+        "sd": 18.6,
+        "min": 40,
+        "max": 100,
+        "q1": 60,
+        "q3": 100
+      }
+    },
+    "overall_score": {
+      "diger": {
+        "n": 237,
+        "mean": 74.57,
+        "median": 77.8,
+        "sd": 18.44,
+        "min": 30,
+        "max": 97,
+        "q1": 60.5,
+        "q3": 92.4
+      },
+      "elektronik": {
+        "n": 22,
+        "mean": 82.35,
+        "median": 89.45,
+        "sd": 13.95,
+        "min": 52.2,
+        "max": 97,
+        "q1": 71.15,
+        "q3": 95.2
+      },
+      "kozmetik": {
+        "n": 12,
+        "mean": 87.29,
+        "median": 91.2,
+        "sd": 10.57,
+        "min": 61.9,
+        "max": 97,
+        "q1": 85.48,
+        "q3": 95.2
+      },
+      "market": {
+        "n": 37,
+        "mean": 72.02,
+        "median": 71.3,
+        "sd": 18.45,
+        "min": 30,
+        "max": 97,
+        "q1": 60.5,
+        "q3": 87.4
+      },
+      "mobilya": {
+        "n": 25,
+        "mean": 77.06,
+        "median": 82.2,
+        "sd": 17.86,
+        "min": 42.2,
+        "max": 95.2,
+        "q1": 67,
+        "q3": 92.4
+      },
+      "moda": {
+        "n": 93,
+        "mean": 76.71,
+        "median": 80.8,
+        "sd": 17.07,
+        "min": 30.6,
+        "max": 99,
+        "q1": 63.4,
+        "q3": 89.7
+      }
+    }
+  },
+  "tls_versions": {
+    "TLSv1.0": 98,
+    "TLSv1.1": 103,
+    "TLSv1.2": 425,
+    "TLSv1.3": 402
+  }
+}

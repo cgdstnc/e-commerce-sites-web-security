@@ -1,0 +1,2430 @@
+{
+  "note": "D_botduvari is left out of the size comparison. It is not a size class but a group added by hand, because these sites could not be classified from their content, and its selection probability is 1.0.",
+  "generated_on": "2026-10-22",
+  "families": {
+    "scores_by_size": {
+      "description": "Maturity scores by size stratum (A/B/C)",
+      "results": {
+        "header_score": {
+          "descriptives": {
+            "A_buyuk": {
+              "n": 134,
+              "mean": 64.71,
+              "median": 69.4,
+              "sd": 23.08,
+              "min": 0,
+              "max": 94.1,
+              "q1": 51.8,
+              "q3": 84.8
+            },
+            "B_orta": {
+              "n": 134,
+              "mean": 62.64,
+              "median": 74.8,
+              "sd": 24.22,
+              "min": 0,
+              "max": 94.1,
+              "q1": 41.65,
+              "q3": 84.8
+            },
+            "C_kucuk": {
+              "n": 134,
+              "mean": 59.76,
+              "median": 61.5,
+              "sd": 28.6,
+              "min": 0,
+              "max": 95.8,
+              "q1": 32.15,
+              "q3": 85.1
+            }
+          },
+          "normality": {
+            "A_buyuk": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.9075,
+              "p": 1.3887383263160357e-7,
+              "normal": false
+            },
+            "B_orta": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.9132,
+              "p": 2.954244984565357e-7,
+              "normal": false
+            },
+            "C_kucuk": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.8877,
+              "p": 1.2361753590589473e-8,
+              "normal": false
+            }
+          },
+          "groups_tested": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "groups_excluded_small": [],
+          "test": "Kruskal-Wallis H",
+          "statistic": 0.6022923253343073,
+          "df": 2,
+          "p": 0.7399696089104916,
+          "significant": false,
+          "effect_size": {
+            "name": "epsilon-squared",
+            "value": 0,
+            "value_unclamped": -0.0035,
+            "interpretation": "negligible",
+            "note": "the raw value was negative because H < k-1, so it was clamped to 0"
+          }
+        },
+        "tls_score": {
+          "descriptives": {
+            "A_buyuk": {
+              "n": 134,
+              "mean": 87.99,
+              "median": 100,
+              "sd": 17.86,
+              "min": 33.3,
+              "max": 100,
+              "q1": 64.45,
+              "q3": 100
+            },
+            "B_orta": {
+              "n": 134,
+              "mean": 89.93,
+              "median": 100,
+              "sd": 17.97,
+              "min": 33.3,
+              "max": 100,
+              "q1": 100,
+              "q3": 100
+            },
+            "C_kucuk": {
+              "n": 134,
+              "mean": 90.2,
+              "median": 100,
+              "sd": 16.7,
+              "min": 55.6,
+              "max": 100,
+              "q1": 77.8,
+              "q3": 100
+            }
+          },
+          "normality": {
+            "A_buyuk": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.6432,
+              "p": 1.4160729943768517e-16,
+              "normal": false
+            },
+            "B_orta": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.5616,
+              "p": 2.71069486880479e-18,
+              "normal": false
+            },
+            "C_kucuk": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.5734,
+              "p": 4.626267242021734e-18,
+              "normal": false
+            }
+          },
+          "groups_tested": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "groups_excluded_small": [],
+          "test": "Kruskal-Wallis H",
+          "statistic": 1.8240850299731042,
+          "df": 2,
+          "p": 0.4017029013410881,
+          "significant": false,
+          "effect_size": {
+            "name": "epsilon-squared",
+            "value": 0,
+            "value_unclamped": -0.0004,
+            "interpretation": "negligible",
+            "note": "the raw value was negative because H < k-1, so it was clamped to 0"
+          }
+        },
+        "overall_score": {
+          "descriptives": {
+            "A_buyuk": {
+              "n": 134,
+              "mean": 76.36,
+              "median": 79.85,
+              "sd": 16.94,
+              "min": 30,
+              "max": 97,
+              "q1": 65.18,
+              "q3": 91.78
+            },
+            "B_orta": {
+              "n": 134,
+              "mean": 76.29,
+              "median": 86.3,
+              "sd": 18.15,
+              "min": 37.4,
+              "max": 97,
+              "q1": 60.8,
+              "q3": 92.4
+            },
+            "C_kucuk": {
+              "n": 134,
+              "mean": 74.98,
+              "median": 76.65,
+              "sd": 18.46,
+              "min": 30,
+              "max": 97,
+              "q1": 60.5,
+              "q3": 92.4
+            }
+          },
+          "normality": {
+            "A_buyuk": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.9069,
+              "p": 1.2816334086509894e-7,
+              "normal": false
+            },
+            "B_orta": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.8755,
+              "p": 3.1688323965841937e-9,
+              "normal": false
+            },
+            "C_kucuk": {
+              "test": "shapiro",
+              "n": 134,
+              "statistic": 0.9045,
+              "p": 9.486900939175539e-8,
+              "normal": false
+            }
+          },
+          "groups_tested": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "groups_excluded_small": [],
+          "test": "Kruskal-Wallis H",
+          "statistic": 0.12115296470542779,
+          "df": 2,
+          "p": 0.9412217794093586,
+          "significant": false,
+          "effect_size": {
+            "name": "epsilon-squared",
+            "value": 0,
+            "value_unclamped": -0.0047,
+            "interpretation": "negligible",
+            "note": "the raw value was negative because H < k-1, so it was clamped to 0"
+          }
+        }
+      },
+      "holm": {
+        "tls_score": {
+          "p_raw": 0.4017029013410881,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "header_score": {
+          "p_raw": 0.7399696089104916,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "overall_score": {
+          "p_raw": 0.9412217794093586,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        }
+      }
+    },
+    "scores_by_sector": {
+      "description": "Maturity scores by sector",
+      "results": {
+        "header_score": {
+          "descriptives": {
+            "diger": {
+              "n": 237,
+              "mean": 60.07,
+              "median": 61.5,
+              "sd": 26.36,
+              "min": 0,
+              "max": 95.8,
+              "q1": 39.3,
+              "q3": 84.8
+            },
+            "kozmetik": {
+              "n": 12,
+              "mean": 74.58,
+              "median": 82.4,
+              "sd": 21.17,
+              "min": 23.7,
+              "max": 94.1,
+              "q1": 70.92,
+              "q3": 90.4
+            },
+            "moda": {
+              "n": 93,
+              "mean": 66.08,
+              "median": 74.8,
+              "sd": 21.81,
+              "min": 14.8,
+              "max": 97.9,
+              "q1": 57.8,
+              "q3": 84.4
+            },
+            "mobilya": {
+              "n": 25,
+              "mean": 65.33,
+              "median": 78.7,
+              "sd": 24.21,
+              "min": 14.8,
+              "max": 90.4,
+              "q1": 37.8,
+              "q3": 84.8
+            },
+            "elektronik": {
+              "n": 22,
+              "mean": 72.89,
+              "median": 79.95,
+              "sd": 21.27,
+              "min": 21.1,
+              "max": 95.1,
+              "q1": 56.15,
+              "q3": 90.4
+            },
+            "market": {
+              "n": 37,
+              "mean": 55.46,
+              "median": 52.6,
+              "sd": 26.43,
+              "min": 0,
+              "max": 94.1,
+              "q1": 34.1,
+              "q3": 82.6
+            }
+          },
+          "normality": {
+            "diger": {
+              "test": "shapiro",
+              "n": 237,
+              "statistic": 0.92,
+              "p": 5.388884621914785e-10,
+              "normal": false
+            },
+            "kozmetik": {
+              "test": "shapiro",
+              "n": 12,
+              "statistic": 0.8224,
+              "p": 0.017036664517746047,
+              "normal": false
+            },
+            "moda": {
+              "test": "shapiro",
+              "n": 93,
+              "statistic": 0.9036,
+              "p": 0.000004313132591175054,
+              "normal": false
+            },
+            "mobilya": {
+              "test": "shapiro",
+              "n": 25,
+              "statistic": 0.8135,
+              "p": 0.0003852972732027222,
+              "normal": false
+            },
+            "elektronik": {
+              "test": "shapiro",
+              "n": 22,
+              "statistic": 0.8595,
+              "p": 0.005017305740157602,
+              "normal": false
+            },
+            "market": {
+              "test": "shapiro",
+              "n": 37,
+              "statistic": 0.9427,
+              "p": 0.056046181769347,
+              "normal": true
+            }
+          },
+          "groups_tested": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "groups_excluded_small": [],
+          "test": "Kruskal-Wallis H",
+          "statistic": 12.018113930799972,
+          "df": 5,
+          "p": 0.034540419032377576,
+          "significant": true,
+          "effect_size": {
+            "name": "epsilon-squared",
+            "value": 0.017,
+            "value_unclamped": 0.0167,
+            "interpretation": "small",
+            "note": null
+          }
+        },
+        "tls_score": {
+          "descriptives": {
+            "diger": {
+              "n": 237,
+              "mean": 89.08,
+              "median": 100,
+              "sd": 17.65,
+              "min": 33.3,
+              "max": 100,
+              "q1": 77.8,
+              "q3": 100
+            },
+            "kozmetik": {
+              "n": 12,
+              "mean": 100,
+              "median": 100,
+              "sd": 0,
+              "min": 100,
+              "max": 100,
+              "q1": 100,
+              "q3": 100
+            },
+            "moda": {
+              "n": 93,
+              "mean": 87.31,
+              "median": 100,
+              "sd": 18.6,
+              "min": 40,
+              "max": 100,
+              "q1": 60,
+              "q3": 100
+            },
+            "mobilya": {
+              "n": 25,
+              "mean": 88.8,
+              "median": 100,
+              "sd": 19.22,
+              "min": 40,
+              "max": 100,
+              "q1": 80,
+              "q3": 100
+            },
+            "elektronik": {
+              "n": 22,
+              "mean": 91.82,
+              "median": 100,
+              "sd": 15.93,
+              "min": 60,
+              "max": 100,
+              "q1": 100,
+              "q3": 100
+            },
+            "market": {
+              "n": 37,
+              "mean": 88.59,
+              "median": 100,
+              "sd": 18.01,
+              "min": 60,
+              "max": 100,
+              "q1": 60,
+              "q3": 100
+            }
+          },
+          "normality": {
+            "diger": {
+              "test": "shapiro",
+              "n": 237,
+              "statistic": 0.6109,
+              "p": 7.702181211083917e-23,
+              "normal": false
+            },
+            "kozmetik": {
+              "test": "shapiro",
+              "n": 12,
+              "p": null,
+              "normal": false,
+              "note": "all values are the same (zero variance), so normality is undefined"
+            },
+            "moda": {
+              "test": "shapiro",
+              "n": 93,
+              "statistic": 0.6314,
+              "p": 6.167320381290318e-14,
+              "normal": false
+            },
+            "mobilya": {
+              "test": "shapiro",
+              "n": 25,
+              "statistic": 0.6138,
+              "p": 6.137876846019083e-7,
+              "normal": false
+            },
+            "elektronik": {
+              "test": "shapiro",
+              "n": 22,
+              "statistic": 0.5334,
+              "p": 2.7510137837622736e-7,
+              "normal": false
+            },
+            "market": {
+              "test": "shapiro",
+              "n": 37,
+              "statistic": 0.5851,
+              "p": 4.905019620901717e-9,
+              "normal": false
+            }
+          },
+          "groups_tested": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "groups_excluded_small": [],
+          "test": "Kruskal-Wallis H",
+          "statistic": 6.215183472373099,
+          "df": 5,
+          "p": 0.285840214954856,
+          "significant": false,
+          "effect_size": {
+            "name": "epsilon-squared",
+            "value": 0.003,
+            "value_unclamped": 0.0029,
+            "interpretation": "negligible",
+            "note": null
+          }
+        },
+        "overall_score": {
+          "descriptives": {
+            "diger": {
+              "n": 237,
+              "mean": 74.57,
+              "median": 77.8,
+              "sd": 18.44,
+              "min": 30,
+              "max": 97,
+              "q1": 60.5,
+              "q3": 92.4
+            },
+            "kozmetik": {
+              "n": 12,
+              "mean": 87.29,
+              "median": 91.2,
+              "sd": 10.57,
+              "min": 61.9,
+              "max": 97,
+              "q1": 85.48,
+              "q3": 95.2
+            },
+            "moda": {
+              "n": 93,
+              "mean": 76.71,
+              "median": 80.8,
+              "sd": 17.07,
+              "min": 30.6,
+              "max": 99,
+              "q1": 63.4,
+              "q3": 89.7
+            },
+            "mobilya": {
+              "n": 25,
+              "mean": 77.06,
+              "median": 82.2,
+              "sd": 17.86,
+              "min": 42.2,
+              "max": 95.2,
+              "q1": 67,
+              "q3": 92.4
+            },
+            "elektronik": {
+              "n": 22,
+              "mean": 82.35,
+              "median": 89.45,
+              "sd": 13.95,
+              "min": 52.2,
+              "max": 97,
+              "q1": 71.15,
+              "q3": 95.2
+            },
+            "market": {
+              "n": 37,
+              "mean": 72.02,
+              "median": 71.3,
+              "sd": 18.45,
+              "min": 30,
+              "max": 97,
+              "q1": 60.5,
+              "q3": 87.4
+            }
+          },
+          "normality": {
+            "diger": {
+              "test": "shapiro",
+              "n": 237,
+              "statistic": 0.9093,
+              "p": 8.331335429384073e-11,
+              "normal": false
+            },
+            "kozmetik": {
+              "test": "shapiro",
+              "n": 12,
+              "statistic": 0.8218,
+              "p": 0.01677047786740824,
+              "normal": false
+            },
+            "moda": {
+              "test": "shapiro",
+              "n": 93,
+              "statistic": 0.8956,
+              "p": 0.0000018659404962966593,
+              "normal": false
+            },
+            "mobilya": {
+              "test": "shapiro",
+              "n": 25,
+              "statistic": 0.8398,
+              "p": 0.0011355730608263142,
+              "normal": false
+            },
+            "elektronik": {
+              "test": "shapiro",
+              "n": 22,
+              "statistic": 0.8642,
+              "p": 0.006106451270917066,
+              "normal": false
+            },
+            "market": {
+              "test": "shapiro",
+              "n": 37,
+              "statistic": 0.9436,
+              "p": 0.05991044394131201,
+              "normal": true
+            }
+          },
+          "groups_tested": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "groups_excluded_small": [],
+          "test": "Kruskal-Wallis H",
+          "statistic": 10.937163612245085,
+          "df": 5,
+          "p": 0.05264017630159917,
+          "significant": false,
+          "effect_size": {
+            "name": "epsilon-squared",
+            "value": 0.014,
+            "value_unclamped": 0.0141,
+            "interpretation": "small",
+            "note": null
+          }
+        }
+      },
+      "holm": {
+        "header_score": {
+          "p_raw": 0.034540419032377576,
+          "p_adjusted": 0.10362,
+          "significant_adjusted": false
+        },
+        "overall_score": {
+          "p_raw": 0.05264017630159917,
+          "p_adjusted": 0.10528,
+          "significant_adjusted": false
+        },
+        "tls_score": {
+          "p_raw": 0.285840214954856,
+          "p_adjusted": 0.28584,
+          "significant_adjusted": false
+        }
+      }
+    },
+    "headers_by_size": {
+      "description": "Header or property present, by size stratum",
+      "results": {
+        "hsts_present": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              93,
+              41
+            ],
+            [
+              84,
+              50
+            ],
+            [
+              75,
+              58
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 0,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 149,
+          "reliable": true,
+          "statistic": 4.8419988927471,
+          "df": 2,
+          "p": 0.08883278946808748,
+          "significant": false,
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.11,
+            "interpretation": "small"
+          }
+        },
+        "hsts_include_subdomains": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              39,
+              54
+            ],
+            [
+              16,
+              68
+            ],
+            [
+              17,
+              58
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 0,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 72,
+          "reliable": true,
+          "statistic": 13.15337634408602,
+          "df": 2,
+          "p": 0.0013924532324472267,
+          "significant": true,
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.228,
+            "interpretation": "small"
+          }
+        },
+        "hsts_in_preload_list": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              1,
+              133
+            ],
+            [
+              2,
+              132
+            ],
+            [
+              0,
+              133
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 3,
+          "expected_cells_below_1": 1,
+          "total_cells": 6,
+          "rarest_category_total": 3,
+          "reliable": false,
+          "statistic": 2.00254381359534,
+          "df": 2,
+          "p": 0.36741183025128654,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 1 cells; expected frequency below 5 in 3/6 cells (over the Cochran limit); the rarest category has only 3 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.071,
+            "interpretation": "negligible"
+          }
+        },
+        "csp_present": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              73,
+              61
+            ],
+            [
+              63,
+              71
+            ],
+            [
+              61,
+              72
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 0,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 197,
+          "reliable": true,
+          "statistic": 2.340531945708607,
+          "df": 2,
+          "p": 0.3102844030611819,
+          "significant": false,
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.076,
+            "interpretation": "negligible"
+          }
+        },
+        "csp_has_frame_ancestors": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              52,
+              21
+            ],
+            [
+              49,
+              14
+            ],
+            [
+              50,
+              11
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 0,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 46,
+          "reliable": true,
+          "statistic": 2.20526755072213,
+          "df": 2,
+          "p": 0.33199552955201916,
+          "significant": false,
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.106,
+            "interpretation": "small"
+          }
+        },
+        "csp_has_unsafe_inline": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              11,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 4,
+          "expected_cells_below_1": 3,
+          "total_cells": 6,
+          "rarest_category_total": 1,
+          "reliable": false,
+          "statistic": 4.56923076923077,
+          "df": 2,
+          "p": 0.10181321350495717,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 3 cells; expected frequency below 5 in 4/6 cells (over the Cochran limit); the rarest category has only 1 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.411,
+            "interpretation": "medium"
+          }
+        },
+        "x_content_type_options": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              84,
+              50
+            ],
+            [
+              85,
+              49
+            ],
+            [
+              76,
+              57
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 0,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 156,
+          "reliable": true,
+          "statistic": 1.3249421484191504,
+          "df": 2,
+          "p": 0.5155757331906805,
+          "significant": false,
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.057,
+            "interpretation": "negligible"
+          }
+        },
+        "referrer_policy_strict": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              32,
+              4
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              31,
+              1
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 3,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 6,
+          "reliable": false,
+          "statistic": 2.0677217915590003,
+          "df": 2,
+          "p": 0.3556312513457195,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 5 in 3/6 cells (over the Cochran limit); the rarest category has only 6 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.15,
+            "interpretation": "small"
+          }
+        },
+        "framing_protected": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              85,
+              49
+            ],
+            [
+              84,
+              50
+            ],
+            [
+              74,
+              59
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 0,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 158,
+          "reliable": true,
+          "statistic": 2.0655901014791107,
+          "df": 2,
+          "p": 0.3560105012259144,
+          "significant": false,
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.072,
+            "interpretation": "negligible"
+          }
+        },
+        "http_to_https_redirect": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              129,
+              4
+            ],
+            [
+              130,
+              3
+            ],
+            [
+              130,
+              4
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 3,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 11,
+          "reliable": false,
+          "statistic": 0.18220742740479332,
+          "df": 2,
+          "p": 0.9129230233623971,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 5 in 3/6 cells (over the Cochran limit). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.021,
+            "interpretation": "negligible"
+          }
+        },
+        "tls_cert_valid_now": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present"
+          ],
+          "observed": [
+            [
+              134
+            ],
+            [
+              134
+            ],
+            [
+              134
+            ]
+          ],
+          "test": null,
+          "note": "the table is too small to test"
+        },
+        "tls_cert_hostname_match": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              134,
+              0
+            ],
+            [
+              134,
+              0
+            ],
+            [
+              133,
+              1
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 3,
+          "expected_cells_below_1": 3,
+          "total_cells": 6,
+          "rarest_category_total": 1,
+          "reliable": false,
+          "statistic": 2.00498753117207,
+          "df": 2,
+          "p": 0.36696317902758246,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 3 cells; expected frequency below 5 in 3/6 cells (over the Cochran limit); the rarest category has only 1 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.071,
+            "interpretation": "negligible"
+          }
+        },
+        "tls_weak_cipher_present": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "absent"
+          ],
+          "observed": [
+            [
+              129
+            ],
+            [
+              129
+            ],
+            [
+              126
+            ]
+          ],
+          "test": null,
+          "note": "the table is too small to test"
+        },
+        "security_txt_present": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              3,
+              129
+            ],
+            [
+              0,
+              130
+            ],
+            [
+              0,
+              126
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 3,
+          "expected_cells_below_1": 1,
+          "total_cells": 6,
+          "rarest_category_total": 3,
+          "reliable": false,
+          "statistic": 5.863518299881937,
+          "df": 2,
+          "p": 0.05330318732173401,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 1 cells; expected frequency below 5 in 3/6 cells (over the Cochran limit); the rarest category has only 3 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.123,
+            "interpretation": "small"
+          }
+        },
+        "server_header_discloses_version": {
+          "groups": [
+            "A_buyuk",
+            "B_orta",
+            "C_kucuk"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              3,
+              131
+            ],
+            [
+              5,
+              129
+            ],
+            [
+              10,
+              123
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 0,
+          "expected_cells_below_1": 0,
+          "total_cells": 6,
+          "rarest_category_total": 18,
+          "reliable": true,
+          "statistic": 4.609698469704131,
+          "df": 2,
+          "p": 0.09977384193777925,
+          "significant": false,
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.107,
+            "interpretation": "small"
+          }
+        }
+      },
+      "holm": {
+        "hsts_include_subdomains": {
+          "p_raw": 0.0013924532324472267,
+          "p_adjusted": 0.0181,
+          "significant_adjusted": true
+        },
+        "security_txt_present": {
+          "p_raw": 0.05330318732173401,
+          "p_adjusted": 0.63964,
+          "significant_adjusted": false
+        },
+        "hsts_present": {
+          "p_raw": 0.08883278946808748,
+          "p_adjusted": 0.97716,
+          "significant_adjusted": false
+        },
+        "server_header_discloses_version": {
+          "p_raw": 0.09977384193777925,
+          "p_adjusted": 0.99774,
+          "significant_adjusted": false
+        },
+        "csp_has_unsafe_inline": {
+          "p_raw": 0.10181321350495717,
+          "p_adjusted": 0.99774,
+          "significant_adjusted": false
+        },
+        "csp_present": {
+          "p_raw": 0.3102844030611819,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "csp_has_frame_ancestors": {
+          "p_raw": 0.33199552955201916,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "referrer_policy_strict": {
+          "p_raw": 0.3556312513457195,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "framing_protected": {
+          "p_raw": 0.3560105012259144,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "tls_cert_hostname_match": {
+          "p_raw": 0.36696317902758246,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "hsts_in_preload_list": {
+          "p_raw": 0.36741183025128654,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "x_content_type_options": {
+          "p_raw": 0.5155757331906805,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "http_to_https_redirect": {
+          "p_raw": 0.9129230233623971,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "tls_cert_valid_now": {
+          "p_raw": null,
+          "p_adjusted": null,
+          "significant_adjusted": null
+        },
+        "tls_weak_cipher_present": {
+          "p_raw": null,
+          "p_adjusted": null,
+          "significant_adjusted": null
+        }
+      }
+    },
+    "headers_by_sector": {
+      "description": "Header or property present, by sector (sectors with n<5 left out)",
+      "results": {
+        "hsts_present": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              140,
+              96
+            ],
+            [
+              16,
+              6
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              18,
+              19
+            ],
+            [
+              17,
+              8
+            ],
+            [
+              70,
+              23
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 1,
+          "expected_cells_below_1": 0,
+          "total_cells": 12,
+          "rarest_category_total": 155,
+          "reliable": true,
+          "statistic": 12.571362444685457,
+          "df": 5,
+          "p": 0.027744385411252587,
+          "significant": true,
+          "warning": "expected frequency below 5 in 1/12 cells, within the Cochran limit but read with care",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.172,
+            "interpretation": "small"
+          }
+        },
+        "hsts_include_subdomains": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              46,
+              94
+            ],
+            [
+              4,
+              12
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              5,
+              12
+            ],
+            [
+              23,
+              47
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 2,
+          "expected_cells_below_1": 0,
+          "total_cells": 12,
+          "rarest_category_total": 83,
+          "reliable": true,
+          "statistic": 2.9458814000440716,
+          "df": 5,
+          "p": 0.7083291744910523,
+          "significant": false,
+          "warning": "expected frequency below 5 in 2/12 cells, within the Cochran limit but read with care",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.104,
+            "interpretation": "small"
+          }
+        },
+        "hsts_in_preload_list": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              2,
+              234
+            ],
+            [
+              0,
+              22
+            ],
+            [
+              0,
+              12
+            ],
+            [
+              0,
+              37
+            ],
+            [
+              1,
+              24
+            ],
+            [
+              1,
+              92
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 6,
+          "expected_cells_below_1": 5,
+          "total_cells": 12,
+          "rarest_category_total": 4,
+          "reliable": false,
+          "statistic": 3.223660913920054,
+          "df": 5,
+          "p": 0.6655478748693984,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 5 cells; expected frequency below 5 in 6/12 cells (over the Cochran limit); the rarest category has only 4 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.087,
+            "interpretation": "negligible"
+          }
+        },
+        "csp_present": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              112,
+              124
+            ],
+            [
+              15,
+              7
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              16,
+              9
+            ],
+            [
+              41,
+              52
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 0,
+          "expected_cells_below_1": 0,
+          "total_cells": 12,
+          "rarest_category_total": 208,
+          "reliable": true,
+          "statistic": 10.918968292341555,
+          "df": 5,
+          "p": 0.0530104857646175,
+          "significant": false,
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.16,
+            "interpretation": "small"
+          }
+        },
+        "csp_has_frame_ancestors": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              78,
+              34
+            ],
+            [
+              13,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              13,
+              3
+            ],
+            [
+              33,
+              8
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 4,
+          "expected_cells_below_1": 0,
+          "total_cells": 12,
+          "rarest_category_total": 53,
+          "reliable": false,
+          "statistic": 3.7806588280646736,
+          "df": 5,
+          "p": 0.5814077991178986,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 5 in 4/12 cells (over the Cochran limit). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.135,
+            "interpretation": "small"
+          }
+        },
+        "csp_has_unsafe_inline": {
+          "groups": [
+            "diger",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              11,
+              4
+            ],
+            [
+              9,
+              0
+            ]
+          ],
+          "test": "Fisher exact (a cell has expected <5)",
+          "expected_cells_below_5": 2,
+          "expected_cells_below_1": 0,
+          "total_cells": 4,
+          "rarest_category_total": 4,
+          "reliable": false,
+          "p": 0.25889328063241435,
+          "odds_ratio": 0,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 5 in 2/4 cells (over the Cochran limit); the rarest category has only 4 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.231,
+            "interpretation": "small"
+          }
+        },
+        "x_content_type_options": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              132,
+              104
+            ],
+            [
+              16,
+              6
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              19,
+              18
+            ],
+            [
+              17,
+              8
+            ],
+            [
+              68,
+              25
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 1,
+          "expected_cells_below_1": 0,
+          "total_cells": 12,
+          "rarest_category_total": 164,
+          "reliable": true,
+          "statistic": 12.53012340902143,
+          "df": 5,
+          "p": 0.02820331538898248,
+          "significant": true,
+          "warning": "expected frequency below 5 in 1/12 cells, within the Cochran limit but read with care",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.172,
+            "interpretation": "small"
+          }
+        },
+        "referrer_policy_strict": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              53,
+              5
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              23,
+              1
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 6,
+          "expected_cells_below_1": 3,
+          "total_cells": 10,
+          "rarest_category_total": 7,
+          "reliable": false,
+          "statistic": 2.0158109457789517,
+          "df": 4,
+          "p": 0.732850651567342,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 3 cells; expected frequency below 5 in 6/10 cells (over the Cochran limit); the rarest category has only 7 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.139,
+            "interpretation": "small"
+          }
+        },
+        "framing_protected": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              131,
+              105
+            ],
+            [
+              17,
+              5
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              19,
+              18
+            ],
+            [
+              16,
+              9
+            ],
+            [
+              67,
+              26
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 1,
+          "expected_cells_below_1": 0,
+          "total_cells": 12,
+          "rarest_category_total": 166,
+          "reliable": true,
+          "statistic": 12.731185681218792,
+          "df": 5,
+          "p": 0.026032385309279444,
+          "significant": true,
+          "warning": "expected frequency below 5 in 1/12 cells, within the Cochran limit but read with care",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.173,
+            "interpretation": "small"
+          }
+        },
+        "http_to_https_redirect": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              229,
+              8
+            ],
+            [
+              21,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              33,
+              3
+            ],
+            [
+              24,
+              0
+            ],
+            [
+              91,
+              2
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 5,
+          "expected_cells_below_1": 3,
+          "total_cells": 12,
+          "rarest_category_total": 15,
+          "reliable": false,
+          "statistic": 4.723125714339133,
+          "df": 5,
+          "p": 0.4505956602491983,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 3 cells; expected frequency below 5 in 5/12 cells (over the Cochran limit). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.106,
+            "interpretation": "small"
+          }
+        },
+        "tls_cert_valid_now": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present"
+          ],
+          "observed": [
+            [
+              237
+            ],
+            [
+              22
+            ],
+            [
+              12
+            ],
+            [
+              37
+            ],
+            [
+              25
+            ],
+            [
+              93
+            ]
+          ],
+          "test": null,
+          "note": "the table is too small to test"
+        },
+        "tls_cert_hostname_match": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              236,
+              1
+            ],
+            [
+              22,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              37,
+              0
+            ],
+            [
+              25,
+              0
+            ],
+            [
+              93,
+              0
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 6,
+          "expected_cells_below_1": 6,
+          "total_cells": 12,
+          "rarest_category_total": 1,
+          "reliable": false,
+          "statistic": 0.799344750558451,
+          "df": 5,
+          "p": 0.9770751188049129,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 6 cells; expected frequency below 5 in 6/12 cells (over the Cochran limit); the rarest category has only 1 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.043,
+            "interpretation": "negligible"
+          }
+        },
+        "tls_weak_cipher_present": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "absent"
+          ],
+          "observed": [
+            [
+              221
+            ],
+            [
+              21
+            ],
+            [
+              12
+            ],
+            [
+              36
+            ],
+            [
+              25
+            ],
+            [
+              92
+            ]
+          ],
+          "test": null,
+          "note": "the table is too small to test"
+        },
+        "security_txt_present": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              1,
+              224
+            ],
+            [
+              2,
+              18
+            ],
+            [
+              0,
+              11
+            ],
+            [
+              0,
+              33
+            ],
+            [
+              0,
+              25
+            ],
+            [
+              1,
+              87
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 6,
+          "expected_cells_below_1": 5,
+          "total_cells": 12,
+          "rarest_category_total": 4,
+          "reliable": false,
+          "statistic": 17.866488122430336,
+          "df": 5,
+          "p": 0.003118471333453662,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 5 cells; expected frequency below 5 in 6/12 cells (over the Cochran limit); the rarest category has only 4 observations (<10). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.211,
+            "interpretation": "small"
+          }
+        },
+        "server_header_discloses_version": {
+          "groups": [
+            "diger",
+            "elektronik",
+            "kozmetik",
+            "market",
+            "mobilya",
+            "moda"
+          ],
+          "categories": [
+            "present",
+            "absent"
+          ],
+          "observed": [
+            [
+              15,
+              221
+            ],
+            [
+              1,
+              21
+            ],
+            [
+              0,
+              12
+            ],
+            [
+              1,
+              36
+            ],
+            [
+              0,
+              25
+            ],
+            [
+              1,
+              92
+            ]
+          ],
+          "test": "Chi-square",
+          "expected_cells_below_5": 5,
+          "expected_cells_below_1": 2,
+          "total_cells": 12,
+          "rarest_category_total": 18,
+          "reliable": false,
+          "statistic": 6.762247674877493,
+          "df": 5,
+          "p": 0.23893118445561212,
+          "significant": null,
+          "warning": "NOT RELIABLE: expected frequency below 1 in 2 cells; expected frequency below 5 in 5/12 cells (over the Cochran limit). The p-value is shown for information only; no decision about significance was made.",
+          "effect_size": {
+            "name": "Cramer's V",
+            "value": 0.126,
+            "interpretation": "small"
+          }
+        }
+      },
+      "holm": {
+        "security_txt_present": {
+          "p_raw": 0.003118471333453662,
+          "p_adjusted": 0.04054,
+          "significant_adjusted": true
+        },
+        "framing_protected": {
+          "p_raw": 0.026032385309279444,
+          "p_adjusted": 0.31239,
+          "significant_adjusted": false
+        },
+        "hsts_present": {
+          "p_raw": 0.027744385411252587,
+          "p_adjusted": 0.31239,
+          "significant_adjusted": false
+        },
+        "x_content_type_options": {
+          "p_raw": 0.02820331538898248,
+          "p_adjusted": 0.31239,
+          "significant_adjusted": false
+        },
+        "csp_present": {
+          "p_raw": 0.0530104857646175,
+          "p_adjusted": 0.47709,
+          "significant_adjusted": false
+        },
+        "server_header_discloses_version": {
+          "p_raw": 0.23893118445561212,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "csp_has_unsafe_inline": {
+          "p_raw": 0.25889328063241435,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "http_to_https_redirect": {
+          "p_raw": 0.4505956602491983,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "csp_has_frame_ancestors": {
+          "p_raw": 0.5814077991178986,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "hsts_in_preload_list": {
+          "p_raw": 0.6655478748693984,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "hsts_include_subdomains": {
+          "p_raw": 0.7083291744910523,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "referrer_policy_strict": {
+          "p_raw": 0.732850651567342,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "tls_cert_hostname_match": {
+          "p_raw": 0.9770751188049129,
+          "p_adjusted": 1,
+          "significant_adjusted": false
+        },
+        "tls_cert_valid_now": {
+          "p_raw": null,
+          "p_adjusted": null,
+          "significant_adjusted": null
+        },
+        "tls_weak_cipher_present": {
+          "p_raw": null,
+          "p_adjusted": null,
+          "significant_adjusted": null
+        }
+      }
+    },
+    "sensitivity_bot_wall": {
+      "description": "Sites where a bot wall was seen against the rest. On those sites the headers may come from the firewall response.",
+      "results": {
+        "header_score": {
+          "groups": [
+            "bot_duvari",
+            "normal"
+          ],
+          "descriptives": {
+            "bot_duvari": {
+              "n": 13,
+              "mean": 54.19,
+              "median": 51.3,
+              "sd": 26.79,
+              "min": 0,
+              "max": 93.9,
+              "q1": 40,
+              "q3": 72.4
+            },
+            "normal": {
+              "n": 413,
+              "mean": 62.62,
+              "median": 71.4,
+              "sd": 25.15,
+              "min": 0,
+              "max": 97.9,
+              "q1": 41.5,
+              "q3": 84.8
+            }
+          },
+          "normality": {
+            "bot_duvari": {
+              "test": "shapiro",
+              "n": 13,
+              "statistic": 0.9697,
+              "p": 0.8912644443302953,
+              "normal": true
+            },
+            "normal": {
+              "test": "shapiro",
+              "n": 413,
+              "statistic": 0.9129,
+              "p": 1.1027700501623822e-14,
+              "normal": false
+            }
+          },
+          "test": "Mann-Whitney U",
+          "statistic": 2205,
+          "p": 0.2724043875142953,
+          "significant": false,
+          "effect_size": {
+            "name": "rank-biserial r",
+            "value": -0.179,
+            "interpretation": "small"
+          },
+          "note": "Normality is not assumed; a non-parametric test was chosen on purpose."
+        },
+        "tls_score": {
+          "groups": [
+            "bot_duvari",
+            "normal"
+          ],
+          "descriptives": {
+            "bot_duvari": {
+              "n": 13,
+              "mean": 83.08,
+              "median": 100,
+              "sd": 21.36,
+              "min": 40,
+              "max": 100,
+              "q1": 60,
+              "q3": 100
+            },
+            "normal": {
+              "n": 413,
+              "mean": 89.27,
+              "median": 100,
+              "sd": 17.56,
+              "min": 33.3,
+              "max": 100,
+              "q1": 77.8,
+              "q3": 100
+            }
+          },
+          "normality": {
+            "bot_duvari": {
+              "test": "shapiro",
+              "n": 13,
+              "statistic": 0.7763,
+              "p": 0.0036171982887031767,
+              "normal": false
+            },
+            "normal": {
+              "test": "shapiro",
+              "n": 413,
+              "statistic": 0.5973,
+              "p": 7.497139222568912e-30,
+              "normal": false
+            }
+          },
+          "test": "Mann-Whitney U",
+          "statistic": 2239.5,
+          "p": 0.2006504033221359,
+          "significant": false,
+          "effect_size": {
+            "name": "rank-biserial r",
+            "value": -0.166,
+            "interpretation": "small"
+          },
+          "note": "Normality is not assumed; a non-parametric test was chosen on purpose."
+        },
+        "overall_score": {
+          "groups": [
+            "bot_duvari",
+            "normal"
+          ],
+          "descriptives": {
+            "bot_duvari": {
+              "n": 13,
+              "mean": 68.64,
+              "median": 70,
+              "sd": 21.31,
+              "min": 30,
+              "max": 97,
+              "q1": 59,
+              "q3": 81.8
+            },
+            "normal": {
+              "n": 413,
+              "mean": 75.95,
+              "median": 79.7,
+              "sd": 17.74,
+              "min": 30,
+              "max": 99,
+              "q1": 60.8,
+              "q3": 92.4
+            }
+          },
+          "normality": {
+            "bot_duvari": {
+              "test": "shapiro",
+              "n": 13,
+              "statistic": 0.927,
+              "p": 0.31134446144512407,
+              "normal": true
+            },
+            "normal": {
+              "test": "shapiro",
+              "n": 413,
+              "statistic": 0.9036,
+              "p": 1.6170189645056001e-15,
+              "normal": false
+            }
+          },
+          "test": "Mann-Whitney U",
+          "statistic": 2204.5,
+          "p": 0.27197235629008165,
+          "significant": false,
+          "effect_size": {
+            "name": "rank-biserial r",
+            "value": -0.179,
+            "interpretation": "small"
+          },
+          "note": "Normality is not assumed; a non-parametric test was chosen on purpose."
+        }
+      },
+      "holm": {
+        "tls_score": {
+          "p_raw": 0.2006504033221359,
+          "p_adjusted": 0.60195,
+          "significant_adjusted": false
+        },
+        "overall_score": {
+          "p_raw": 0.27197235629008165,
+          "p_adjusted": 0.60195,
+          "significant_adjusted": false
+        },
+        "header_score": {
+          "p_raw": 0.2724043875142953,
+          "p_adjusted": 0.60195,
+          "significant_adjusted": false
+        }
+      }
+    }
+  },
+  "sensitivity_ratios_excluding_blocked": {
+    "hsts_present": {
+      "pct": 63.8,
+      "n": 412,
+      "hits": 263
+    },
+    "hsts_include_subdomains": {
+      "pct": 30,
+      "n": 263,
+      "hits": 79
+    },
+    "hsts_in_preload_list": {
+      "pct": 1,
+      "n": 412,
+      "hits": 4
+    },
+    "csp_present": {
+      "pct": 49,
+      "n": 412,
+      "hits": 202
+    },
+    "csp_has_frame_ancestors": {
+      "pct": 76.2,
+      "n": 202,
+      "hits": 154
+    },
+    "csp_has_unsafe_inline": {
+      "pct": 96.7,
+      "n": 30,
+      "hits": 29
+    },
+    "x_content_type_options": {
+      "pct": 61.7,
+      "n": 412,
+      "hits": 254
+    },
+    "referrer_policy_strict": {
+      "pct": 92.9,
+      "n": 99,
+      "hits": 92
+    },
+    "framing_protected": {
+      "pct": 60.7,
+      "n": 412,
+      "hits": 250
+    },
+    "http_to_https_redirect": {
+      "pct": 97.6,
+      "n": 411,
+      "hits": 401
+    },
+    "tls_cert_valid_now": {
+      "pct": 100,
+      "n": 413,
+      "hits": 413
+    },
+    "tls_cert_hostname_match": {
+      "pct": 99.8,
+      "n": 413,
+      "hits": 412
+    },
+    "tls_weak_cipher_present": {
+      "pct": 0,
+      "n": 395,
+      "hits": 0
+    },
+    "security_txt_present": {
+      "pct": 1,
+      "n": 399,
+      "hits": 4
+    },
+    "server_header_discloses_version": {
+      "pct": 4.4,
+      "n": 412,
+      "hits": 18
+    }
+  }
+}

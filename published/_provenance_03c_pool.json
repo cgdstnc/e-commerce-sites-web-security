@@ -1,0 +1,62 @@
+{
+  "step": "3c - candidate pool, suggested sector, draft sample",
+  "generated_on": "2026-10-22",
+  "seed": 20260927,
+  "rule": "status=ok AND is_turkish AND NOT looks_parked AND ecom_score>=8 AND cart>=1",
+  "rule_doc": "docs/sector_labels.md",
+  "pool": {
+    "file": "out/validated_pool.csv",
+    "rows": 1886,
+    "by_stratum": {
+      "A_buyuk": 741,
+      "B_orta": 548,
+      "C_kucuk": 597
+    },
+    "by_sector_auto": {
+      "moda": 419,
+      "diger": 1016,
+      "kozmetik": 78,
+      "market": 164,
+      "elektronik": 99,
+      "mobilya": 110
+    }
+  },
+  "draft_sample": {
+    "file": "out/sample_frame_draft.csv",
+    "rows": 405,
+    "per_stratum": 135,
+    "allocation": [
+      {
+        "stratum": "A_buyuk",
+        "pool": 741,
+        "selected": 135,
+        "probability": 0.182186
+      },
+      {
+        "stratum": "B_orta",
+        "pool": 548,
+        "selected": 135,
+        "probability": 0.24635
+      },
+      {
+        "stratum": "C_kucuk",
+        "pool": 597,
+        "selected": 135,
+        "probability": 0.226131
+      }
+    ],
+    "by_sector_auto": {
+      "diger": 232,
+      "elektronik": 22,
+      "moda": 80,
+      "market": 36,
+      "kozmetik": 10,
+      "mobilya": 25
+    }
+  },
+  "blocked_manual": {
+    "file": "out/manual_review_blocked.csv",
+    "rows": 912
+  },
+  "status": "DRAFT - not final until every row has been checked by hand"
+}

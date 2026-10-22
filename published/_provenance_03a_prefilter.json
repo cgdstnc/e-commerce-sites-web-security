@@ -1,0 +1,54 @@
+{
+  "step": "3a - pre-filter plus stratified sampling",
+  "generated_on": "2026-10-20",
+  "seed": 20260927,
+  "input_rows": 350329,
+  "dropped": {
+    "bucket>100000 or absent from CrUX": 273528,
+    "a non-commercial .tr suffix": 1415,
+    "a global service that does not sell": 32,
+    "an infrastructure or advertising endpoint": 22
+  },
+  "kept_after_prefilter": 75332,
+  "strata_definition": {
+    "A_buyuk": "CrUX bucket <=10000",
+    "B_orta": "CrUX bucket =50000",
+    "C_kucuk": "CrUX bucket =100000",
+    "note": "CrUX bucket'i 100000 ustu olanlar ve CrUX'te olmayanlar taranmaz"
+  },
+  "sampling": [
+    {
+      "stratum": "A_buyuk",
+      "size": 7618,
+      "selected": 7618,
+      "probability": 1
+    },
+    {
+      "stratum": "B_orta",
+      "size": 30873,
+      "selected": 4000,
+      "probability": 0.129563
+    },
+    {
+      "stratum": "C_kucuk",
+      "size": 36841,
+      "selected": 4000,
+      "probability": 0.108575
+    }
+  ],
+  "output": {
+    "file": "out/crawl_list.csv",
+    "rows": 15618,
+    "by_stratum": {
+      "A_buyuk": 7618,
+      "B_orta": 4000,
+      "C_kucuk": 4000
+    },
+    "tr_tld": 2519
+  },
+  "request_budget": {
+    "per_domain": 2,
+    "total_estimate": 31236,
+    "note": "robots.txt and the root page, at most one request per second per site."
+  }
+}
